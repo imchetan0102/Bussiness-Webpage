@@ -1,0 +1,516 @@
+
+
+
+@media (max-width:768px) {
+
+    /* ........................................................for navbar......................... */
+    /* .toggle{
+        display: block;
+        position: fixed;
+    }
+
+    .menu{
+        font-size: 50px;
+    }
+    ul{
+        width: 100%;
+        display: none;
+    }
+
+    ul li{
+        display: block;
+        text-align: center;
+    }
+
+    .active{
+        display: block;
+    }
+
+
+    body{
+        background: rgb(217, 235, 235);
+    }
+
+    .action1{
+        margin-top: 80px;
+    } */
+
+/* ================================ */
+
+  .toggle{
+        display: block;
+        position: fixed;
+    }
+
+        
+    nav{
+        background: #00316b;
+         /* height: 80vh;*/
+    }
+
+    .menu{
+        font-size: 50px;
+    }
+    ul{
+        width: 100%;
+        display: none;
+    }
+
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    ul.ul1 li a{
+        font-size: 50px;
+    }
+
+        
+    ul li a{
+        color: #fff;
+        /* text-decoration: none; */
+        /* font-size: 50px;
+        font-weight: 800; */
+      padding: -100px;
+       
+    }
+
+    .active{
+        display: block;
+    }
+
+
+    body{
+        background: rgb(217, 235, 235);
+    }
+
+    .action1{
+        margin-top: 80px;
+        font-size: 30px;
+    }
+
+    
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+@media (max-width:768px){
+
+    .home-content{
+        display: flex;
+        flex-direction: column;
+       
+
+    }
+
+    .home-content h3{
+        font-size: 90px;
+        
+        text-align: center;
+    }
+    .home-content h1{
+        font-size: 100px;
+        padding-right: -300px;
+       
+    }
+    .home-content p{
+        font-size: 50px;
+        padding-left: 150px;
+    }
+
+    .btn-box{
+        font-size: 50px;
+       
+    }
+    .home-sci a{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        background: transparent;
+        border: 6px solid white;
+        border-radius: 50%;
+        font-size: 50px;
+        color:whitesmoke ;
+        text-decoration: none;
+        margin: 30px 15px 30px 30px;
+        transition: .3s ease;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards ;
+        animation-delay: calc(.2s * var(--i));
+    }
+
+
+
+    .box{
+        display: none;
+    }
+    .home::before{
+        border-radius: 50%;
+        width: 80vh;
+        height: 70vh;
+        background: rgb(141, 141, 218);
+    } 
+    .home::before{
+        border-radius: 50%;
+        width: 80vh;
+        height: 90vh;
+        margin-top: -100%;
+        margin-left: -20%;
+    } 
+    .home{
+       
+        width: 999px;
+        height: 150vh;
+        background: rgb(23, 23, 63);   
+   }  
+    /* .home-content p{
+        font-size: 50px;
+        padding-top: 30px;
+        opacity: 0;
+        animation: slideRight 2s ease forwards ;
+        animation-delay: .3s;
+        padding-left: 150px;
+        text-align: center;
+        
+    }
+    .home-content h3{
+       
+        font-size: 90px;
+        font-weight: 700;
+        opacity: 0;
+        animation: slideLeft 2s ease forwards ;
+        animation-delay: .3s;
+        text-align: center;
+        padding-left: 150px;
+    } 
+    .home-content h1{
+        font-size: 130px;
+      
+        font-weight: 700;
+        opacity: 0;
+        animation: slideRight 2s ease forwards ;
+        animation-delay: .3s;
+        text-align: center;
+        padding-left: 150px;
+    } */
+
+
+} 
+
+
+
+
+
+/* ===================================================ABOUT========================================= */
+
+
+@media screen and (max-width: 768px) {
+    .about {
+        display: block;
+        width: 999px;
+        background: #ff004f;
+        
+    }
+
+
+   
+    /* .about-img {
+        width: 100%;
+        margin-bottom: 20px;
+    } */
+
+    .about-text {
+        width: 100%;
+        padding-left: 40px; 
+         padding-right: 40px;
+    }
+
+
+    .about-text p{
+        font-size: 50px;
+        text-align: center;
+    }
+    .about-text h2{
+        text-align: center;
+        font-size: 130px;
+    }
+    .about-text h4{
+        text-align: center;
+        font-size: 80px;
+    }
+    
+    .btn-box1 {
+        margin-left: 30%;
+        margin-bottom: 90px;
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+/* =================================================================================== */
+
+@media screen and (max-width: 768px){
+
+        
+    .services{
+        color: #070000;
+        width: 999px;
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 5rem;
+        background-color: #193131;
+        margin-top: -150px;
+       
+    }
+
+    .sub-title{
+        text-align: center;
+        font-size: 130px;
+        padding-bottom: 60px;
+    
+    }
+
+        
+    .services-list{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(auto-fit,minmax(259px.1fr));
+        grid-gap:10px ;
+        margin-top: 50px;
+        box-shadow: #fcfcfc;
+    }
+
+    .service-box{
+        box-shadow: #fcfcfc;
+        /* font-size: 100px; */
+    }
+    .services-list div{
+        background-color: #8fc2b5;
+        padding: 40px;
+        font-size: 50px;
+        font-weight: 20px;
+        border-right: 10px;
+        border-radius: 20px;
+        transition: background 0.5s, transform 0.5s;
+        margin-bottom: 5%;
+        width: 850px;
+        box-shadow: #fcfcfc;
+       
+    } 
+    .services-list .service-box {
+        font-size: 50px; 
+    }
+
+    .services-list .service-box h2{
+        font-size: 80px;
+    }
+    .services-list .service-box p,
+    .services-list .service-box a {
+        font-size: 50px; 
+       
+    }
+    .services-list .service-box i {
+        font-size: 80px; 
+    }
+
+
+}
+
+
+
+/* ============================================SKILS=========================================== */
+
+@media screen and (max-width: 768px){
+    .Mskill{
+        background-color: #15193b;
+        margin-top: -2.5rem;
+        /* padding-bottom: 20px; */
+        margin-bottom: 40px;
+        /* margin-top: -20px; */
+        width: 900px;
+        height: 150vh;
+        margin-left: 30px;
+        border-radius: 15px;
+        
+    }
+    
+    .sub-title1{
+        font-size: 130px;
+    }
+
+    .Anime{
+        display: block;
+       margin-left: 40px;
+       /* width: 800px; */
+    }
+
+    .skill-name{
+        font-size: 50px;
+        font-weight: 600;
+        color: #e2cccc;
+        text-transform: uppercase;
+        margin: 20px 0;
+      }
+
+      .skill-per{
+        height: 30px;
+        color: #000;
+        background: #36d1a3;
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s 1;
+        font-size: 40px;
+      }
+      .skill-bar{
+        height: 30px;
+        background: #665555;
+        border-radius: 3px;
+      
+      }
+
+      .skill-per::before{
+        content: attr(per);
+        position: absolute;
+        padding: 8px 12px;
+        background: rgb(130, 221, 191);
+        border-radius: 8px;
+        font-size: 30px;
+        top: -55px;
+        right: 0;
+        transform: translateX(50%);
+      }
+
+      .skill-per::after{
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: rgb(130, 221, 191);
+        top: -10px;
+        right: 0;
+        transform: translateX(50%) rotate(45deg);
+        border-radius: 2px;
+      }
+      
+
+}
+
+
+@media screen and (max-width: 768px){
+
+    .Project{
+        background: rgb(97, 193, 202);
+        /* margin-bottom: -5%; */
+        width: 1000px;
+        height: 150vh;
+     
+    }
+
+    .main-text h2{
+        margin-top: -100px;
+        font-size: 130px;
+        /* margin-bottom: 100px; */
+
+    }
+    .layer p{
+        color: #000;
+        font-size: 40px;
+        line-height: 1;
+    }
+
+        
+    .portfolio-content{
+        display: block;
+        grid-template-columns: repeat(auto-fit, minmax(359px , auto));
+        margin-left: -65px;        
+        /* width: 750px; */
+    }
+
+    .row{
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        display: flex;
+        /* padding: 20px; */
+        width: 900px;
+        padding-right: -80px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .contact{
+        width: 999px;
+        display: block;
+        background: #36d1a3;
+        height: 120vh;
+        
+    }
+
+    .contact-form{
+        padding-left: 50px;
+        /* width: 750px; */
+        /* height: 50vh; */
+       
+    }
+
+    
+    .contact-form form input, form textarea{
+        border: none;
+        outline: none;
+        width: 90%;
+        padding: 18px;
+        background: #d6afaf;
+        color: #000;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+}
+
+
+    .contact-text h2{
+        font-size: 90px;
+        line-height: 1;
+        text-align: center;
+        margin-top: -14%;
+        padding-top: 40px;
+        margin-bottom: 30px;
+    }
+
+        
+    .contact-text h4{
+        margin-left: 10%;
+        color: rgb(4, 102, 69);
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+
+    .contact-text p{
+        color: #ff004f;
+        /* font-size: 20px; */
+        /* line-height: 30px; */
+        /* margin-bottom: 2rem; */
+        /* margin-left: 10%; */
+        text-align: center;
+    }
+
+}
